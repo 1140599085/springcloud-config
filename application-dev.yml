@@ -2,7 +2,7 @@ zuul:
   routes:
     router1:
       serviceId: cloud-hystrix-payment
-      path: /myrouter1/**
+      path: /router/**
   ##当前服务不可使用服务名路由 "*"
   ignored-services: cloud-hystrix-payment
-  prefix: /zht
+  prefix: /ht
